@@ -4,3 +4,24 @@
 #ignore all test scripts
 test*
 # test?.sh
+
+#tips
+
+# Any lines that start with # are comments
+# ** can be used to match any number of directories.
+# **/logs matches all files or directories named logs (same as the pattern logs)
+# **/logs/*.log matches all files ending with .log in a logs directory
+# logs/**/*.log matches all files ending with .log in the logs directory and any of its subdirectories
+# You can use a prefix of ! to negate a file that would be ignored.
+# 	eg 
+# 	*.txt
+# 	!example.txt
+# You can ignore entire directories, just by including their paths and putting a / on the end
+# If there are some files you want to ignore for just this repository, you can put them in ".git/info/exclude"
+
+# Git will not ignore the file if you've already committed it. You'll have to untrack the file first, then it will start ignoring it.
+# untrack 
+# git rm --cached FILENAME
+
+# If you’re having trouble, you can find out why certain files are being ignored by using the git check-ignore command with the verbose option.
+# git check-ignore -v example.log
