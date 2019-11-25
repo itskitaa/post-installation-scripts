@@ -25,3 +25,9 @@ test*
 
 # If you’re having trouble, you can find out why certain files are being ignored by using the git check-ignore command with the verbose option.
 # git check-ignore -v example.log
+
+#routine git tasks
+# modify file
+# git add <file>
+# git commit -m "comment"
+# git push -u origin master
