@@ -1,0 +1,6 @@
+
+#ignore all text files
+*.txt
+#ignore all test scripts
+test*
+# test?.sh
