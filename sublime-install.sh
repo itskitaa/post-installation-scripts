@@ -10,6 +10,12 @@ DGRAY="\033[1;30m"
 
 clear
 
+echo ""
+
+echo ""
+
+echo ""
+
 function pause(){
 	echo -e "$RED"
 	read -sn 1 -p "Press any key to continue..."

@@ -13,6 +13,12 @@ CYAN="\033[0;36m"
 
 clear
 
+echo ""
+
+echo ""
+
+echo ""
+
 function hack(){
 	echo -e "$ORANGE"
 	echo -e "Launch Metasploit by running 'msfconsole'"

@@ -9,6 +9,13 @@ LCYAN="\033[1;36m"
 LGRAY="\033[0;37m"
 YELLOW="\033[1;33m"
 
+clear
+
+echo ""
+
+echo ""
+
+echo ""
 
 echo -e "$LCYAN Shodan Installation and Initialization script"
 
