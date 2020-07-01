@@ -6,3 +6,4 @@ Shodan initialization script
 Sublime text
 VirtualBox 
 VM Creator
+Metasploit initialize
